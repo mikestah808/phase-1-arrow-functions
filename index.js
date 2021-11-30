@@ -1,20 +1,29 @@
-const divide = function() {
-    // console.log(typeof(a))
-    return 2000 / 100 ;
-    
+function divide() {
+    const divide = 2000 / 100;
+    return divide;
+}
+
+// const squareFunctionArrow = (square) => {
+//     console.log(square);
+// };
+
+const square = (square) => {
+    let x = 2;
+    square = (x * x);
+    return square;
 };
 
-// console.log(divide(2000 , 100));
 
-// has an arrow function called square
-// square arrow function takes one parameter and multiplies it times itself
+const add = (add) => {
+    let a = 3
+    let b = 4
+    add = (a+b);
+    return add;
+};
 
-let square = x => x * 2;
 
-// has an arrow function called add
-// add arrow function takes two parameters and adds them together
 
-let add = (a, b) => a + b;
+
 
 
 
